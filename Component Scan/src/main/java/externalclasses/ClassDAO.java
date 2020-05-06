@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Getter @Setter
 public class ClassDAO {
+	
 	@Autowired
 	private ClassJDBC objectJDBC;
 
